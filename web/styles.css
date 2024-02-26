@@ -1,0 +1,46 @@
+:root {
+    --background_color: #111111;
+    --text_color: #001602;
+    --nav_background: #000500;
+
+}
+
+body {
+    background-color: var(--background_color);
+    color: white;
+}
+
+header {
+    background-color: #080808;
+    padding: 10px 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #080808;
+}
+
+nav a {
+    
+    /*border: 0.1rem;*/
+    border-radius: 1rem;
+    padding: 0.5rem 14.5rem;
+    font-size: 3rem;
+    background-color: var(--nav_background);
+}
+
+#currentnav {
+    background-color: var(--background_color);
+}
+
+h1.pageheader {
+    text-align: center;
+    font-size: 40px;
+}
+
+h3.resumeheader {
+    font-size: 20px;
+    color: #ff15a3;
+}
+
